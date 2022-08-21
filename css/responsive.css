@@ -1,0 +1,217 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        width: 1000px
+    }
+    .header-image {
+        height: 600px;
+    }
+    .header-content {
+        margin-top: -100px;
+        margin-bottom: -200px;
+    }
+
+    .nandine-about-content p {
+        margin-bottom: 15px;
+    }
+
+    .boxed-btn.about-btn {
+        margin-top: 2px;
+    }
+ 
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 800px
+    }
+    .header-image {
+        height: 600px;
+        padding-top: 265px;
+    }
+    .header-content {
+        margin-top: -200px;
+    }
+
+    .main-manu ul.navbar-nav {
+        width: 100%;
+        background: #00000063;
+    }
+
+    .main-manu ul.navbar-nav li a {
+        padding: 10px 20px;
+    }
+
+    .navbar-nav {
+        margin-bottom: 20px;
+    }
+
+    .header-content h1 {
+        font-size: 53px;
+    }
+
+    .single-counter {
+        padding: 50px;
+    }
+
+    .single-team {
+        margin-top: 30px;
+    }
+
+    .single-blog {
+        margin-top: 30px;
+    }
+    .main-manu ul li a::after {
+        top: 42px;
+    }
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .container {
+        width:320
+    }
+    .header-image {
+        height: 600px;
+        padding-top: 230px;
+    }
+    .boxed-btn {
+        margin-top: -20px;
+    }
+    .main-manu ul.navbar-nav {
+        width: 100%;
+        background: #00000063;
+    }
+
+    .main-manu ul.navbar-nav li a {
+        padding: 10px 20px;
+    }
+
+    .navbar-nav {
+        margin-bottom: 20px;
+    }
+    .navbar-brand {
+        margin-left: 15px;
+    }
+    .fa.fa-bars {
+        margin-right: 15px;
+    }
+    .header-content {
+        margin-top: -140px;
+    }
+    .header-content h1 {
+        font-size: 45px;
+    }
+    .header-content p {
+        padding-top: 0;
+    }
+    .about-image {
+        margin-bottom: 20px;
+    }
+    .single-counter {
+        padding: 20px;
+    }
+    input[type="text"] {
+        margin-top: 30px;
+    }
+    .footer-social {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .single-team {
+        margin-top: 30px;
+    }
+    .single-blog {
+        margin-top: 30px;
+    }
+    .main-manu ul li a::after {
+        top: 42px;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+    
+    .header-content {
+        margin-top: -200px;
+    }
+    .header-content {
+        margin-top: -200px;
+    }
+
+    .header-content h1 {
+        font-size: 50px;
+        line-height: 1;
+    }
+
+    .navbar-brand {
+        margin-left: 15px;
+    }
+
+    .navbar-toggler.collapsed i {
+        margin-right: 15px;
+    }
+
+    .main-manu ul.navbar-nav {
+        width: 100%;
+        background: #00000063;
+    }
+
+    .main-manu ul.navbar-nav li a {
+        padding: 10px 20px;
+    }
+
+    .navbar-nav {
+        margin-bottom: 20px;
+    }
+
+    .video-content h2 {
+        font-size: 28px;
+    }
+
+    .nandine-about-content h3 {
+        font-size: 23px;
+        margin-top: 40px;
+    }
+
+    .skill-content h4 {
+        text-align: center;
+    }
+
+    .skillbar-right h3 {
+        text-align: center;
+    }
+
+    .single-counter {
+        padding: 50px 0;
+    }
+
+    .single-team {
+        margin-top: 30px;
+    }
+
+    input[type="text"] {
+        margin-top: 30px;
+    }
+
+    .footer-social {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .main-manu ul li a::after {
+        top: 42px;
+    }
+}
